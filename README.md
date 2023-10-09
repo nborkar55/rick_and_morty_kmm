@@ -30,22 +30,10 @@ To build the application bundle:
 - run `./gradlew :composeApp:assembleDebug`
 - find `.apk` file in `composeApp/build/outputs/apk/debug/composeApp-debug.apk`
 
-### Desktop
-Run the desktop application: `./gradlew :composeApp:run`
-
 ### iOS
 To run the application on iPhone device/simulator:
 - Open `iosApp/iosApp.xcworkspace` in Xcode and run standard configuration
 - Or use [Kotlin Multiplatform Mobile plugin](https://plugins.jetbrains.com/plugin/14936-kotlin-multiplatform-mobile) for Android Studio
-
-### Browser
-Run the browser application: `./gradlew :composeApp:jsBrowserDevelopmentRun`
-
-## Especial thanks
-
-* [Alex Fuhrmann] for his fantastic job: [The Rick and Morty Api]
-* [Compose Multiplatform Wizard] amazing tool to create KMM template
-* [Voyager] simply: makes your kmm life easy
 
 [KMM]: https://kotlinlang.org/lp/mobile/
 [Flow]: https://github.com/Kotlin/kotlinx.coroutines
